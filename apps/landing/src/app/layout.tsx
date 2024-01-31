@@ -15,7 +15,7 @@ export default function RootLayout({
     return (
         <html lang="fr">
             <body>
-                <header className="px-6 py-2 shadow-md sticky top-0 bg-white">
+                <header className="z-40 px-6 py-2 shadow-md sticky top-0 backdrop-blur-md bg-white/20">
                     <Navbar />
                 </header>
                 <main>{children}</main>

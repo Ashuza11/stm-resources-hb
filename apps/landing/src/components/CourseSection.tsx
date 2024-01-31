@@ -20,7 +20,7 @@ const CourseSection = () => {
 
             <ul className="flex justify-around gap-4">
                 {course_data.map((course) => (
-                    <CourseCard {...course} />
+                    <CourseCard {...course} key={course.title} />
                 ))}
             </ul>
 
