@@ -11,7 +11,17 @@ const TutorPage = () => {
             </h2>
 
             <ListTutors />
+
             <div className="py-4" />
+
+            <div className="mx-auto w-fit mt-[2rem] text-white text-xl font-bold">
+                <button className="px-5 py-3 bg-primary rounded-xl shadow-[0.3rem_0.3rem_0px_0px_#00000040]">
+                    Apprendre plus
+                </button>
+            </div>
+
+            <div className="py-4" />
+
             <FooterSection />
         </div>
     );

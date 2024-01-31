@@ -71,7 +71,7 @@ const Navbar = () => {
 
 const Line = () => {
     return (
-        <hr className="origin-center mx-auto rotate-[-3deg] w-0 duration-700 border-none bg-secondary py-[2px] rounded-r-full rounded-l-full" />
+        <hr className="origin-center mx-auto rotate-[-3deg] w-0 duration-300 ease-out border-none bg-secondary py-[2px] rounded-r-full rounded-l-full" />
     );
 };
 

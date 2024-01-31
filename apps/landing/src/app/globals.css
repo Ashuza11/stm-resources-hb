@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: "Poppins", sans-serif;
+
+@layer components {
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    color: #333;
+  }
 }
