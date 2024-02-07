@@ -5,7 +5,8 @@
         "build": "turbo build --no-daemon",
         "dev": "turbo dev",
         "lint": "turbo lint --no-daemon",
-        "format": "prettier --write \"**/*.{ts,tsx,md}\""
+        "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+        "start": "turbo start"
     },
     "devDependencies": {
         "@repo/eslint-config": "workspace:*",
